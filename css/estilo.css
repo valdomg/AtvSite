@@ -1,10 +1,26 @@
 /*cabeçalho*/
 
+.navbar-brand img {
+    height: 70px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer P {
+    font-weight: bold;
+    padding: 10px;
+}
 
 /*Conteudo principal*/
 
 
 /*banner*/
+
+#section-banners img{
+    height: 500px;
+}
 
 /*Produtos vendidos*/
 /*Rodapé*/
