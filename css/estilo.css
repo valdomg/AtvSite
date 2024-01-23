@@ -1,8 +1,67 @@
 /*cabeçalho*/
 
 .navbar-brand img {
-    height: 70px;
+    height: 80px;
 }
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0{
+    font-size: 20px;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: aliceblue;
+}
+
+
+/*Conteudo principal*/
+
+
+/*banner*/
+
+#section-banners img{
+    height: 500px;
+    padding-top: 15px;
+}
+
+
+/*Produtos vendidos*/
+
+#section-vendidos {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card{
+    margin: 8px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    
+}
+
+#section-vendidos h2{
+    padding: 20px;
+    text-align: center;
+}
+
+#section-vendidos h5{
+    font-size: 35px;
+}
+
+.d-flex{
+
+}
+
+
+
+
+/*Rodapé*/
 
 footer{
     text-align: center;
@@ -13,22 +72,39 @@ footer P {
     padding: 10px;
 }
 
-/*Conteudo principal*/
-
-
-/*banner*/
-
-#section-banners img{
-    height: 500px;
-}
-
-/*Produtos vendidos*/
-/*Rodapé*/
-
 /*Botão Voltar topo*/
 
+#voltar-topo {
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
 /* página de login  */
+
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+
+}
 
 
 /* Formulário de cadastro*/
 
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#form-cadastrar {
+    padding: 5px;
+    display: none;
+}
