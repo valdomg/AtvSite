@@ -28,9 +28,10 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 
 #section-vendidos {
     font-weight: bold;
-    padding: 20px;
+    padding: 50px;
+    width: 1350px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 #section-vendidos img {
@@ -42,7 +43,6 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
     margin: 8px;
     border: 1px solid cornflowerblue;
     border-radius: 10px;
-    
 }
 
 #section-vendidos h2{
@@ -54,9 +54,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
     font-size: 35px;
 }
 
-.d-flex{
 
-}
 
 
 
@@ -68,6 +66,7 @@ footer{
 }
 
 footer P {
+    margin-top: 250px;
     font-weight: bold;
     padding: 10px;
 }
@@ -99,6 +98,7 @@ footer P {
 /* Formulário de cadastro*/
 
 #section-cadastro {
+    margin-top: 100px;
     padding: 5px;
     text-align: center;
     background-color: rgb(255, 255, 255);

@@ -20,12 +20,18 @@ function login(){
     if(usuario = "admin" && senha == "123456") {
         window.location = "index.html";
         log = true; 
-    }
+    };
 
     if (!log){
         alert("Acesso negado, dados incorretos!");
-    }
-}
+    };
+};
 
 
 //Ativar alert no botão cadastrar
+
+function cadastro(){
+    alert('Cadastro com Sucesso!');
+    window.location.href = 'index.html';
+
+};
